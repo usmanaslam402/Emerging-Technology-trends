@@ -12,6 +12,72 @@
             background: #ffffff;
             color: #222;
         }
+.image-container {
+    text-align: center;
+    margin-bottom: 40px;
+}
+body {
+    font-family: "Times New Roman", Times, serif;
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    color: #222;
+}
+
+/* Smaller, elegant academic title */
+h1 {
+    font-size: 34px;  /* reduce size from 42px */
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+}
+
+h2 {
+    font-size: 26px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.meta {
+    font-family: "Times New Roman", Times, serif;
+    display: flex;
+    gap: 40px;
+    margin: 20px 0;
+    color: #555;
+    font-size: 15px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.index-terms {
+    font-weight: bold;
+    font-size: 17px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.header-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+/* Hover effect */
+.header-image:hover {
+    transform: scale(1.02);
+    box-shadow: 0 12px 28px rgba(0,0,0,0.25);
+}
+
+.image-caption {
+    margin-top: 12px;
+    font-size: 16px;
+    color: #555;
+    font-style: italic;
+}
 .header-image {
     max-width: 100%;
     height: auto;
@@ -25,10 +91,13 @@
             padding: 0 20px;
         }
         h1 {
-            font-size: 42px;
-            margin-bottom: 10px;
-            font-weight: bold;
-        }
+    font-size: 34px;   /* smaller title */
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;   /* centers the heading */
+}
+
         .meta {
             display: flex;
             gap: 40px;
@@ -64,7 +133,7 @@
 <body>
 
 <div class="container">
-    <h1>Emerging Technology Trends: A Perspective Analytics on Large Datasets of Research Databases</h1>
+    <h1 style: >Emerging Technology Trends: A Perspective Analytics on Large Datasets of Research Databases</h1>
 
     <div class="meta">
         <div>
@@ -95,9 +164,15 @@
         educational technology, technology forecasting, computer aided instruction, mobile learning.
     </p>
 
+<div class="image-container">
+        <div class="image-caption">Exploring Emerging Technologies Analytics</div>
+</div>
 
 <!-- Inserted Image -->
     <img src="pic.png" alt="Research Image" class="header-image">
+<div class="image-container">
+        <div class="image-caption">Exploring Emerging Technologies Analytics</div>
+</div>
 
 
 	<img src="img-01.png" alt="Research Image" class="header-image">
